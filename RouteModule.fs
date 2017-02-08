@@ -3,11 +3,7 @@ namespace RoutingExample
 module Route =
 
   open System
-
-  let (~~) (x:obj) =
-    match x with
-    | :? 't as t -> t
-    | _ -> null
+  open Operators.CastOperators
 
   type IRoute =
 

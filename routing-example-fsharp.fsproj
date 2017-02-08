@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Operators.fs" />
     <Compile Include="RouteModule.fs" />
     <Compile Include="ExampleRouteModule.fs" />
     <Compile Include="Program.fs" />
